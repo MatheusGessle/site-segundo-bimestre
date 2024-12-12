@@ -1,0 +1,48 @@
+
+body, html{
+    background-color: yellow;
+    margin: 0;
+    font-family: arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+.alisson{
+     background-color: #002776;
+     height: 110px;
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+}
+.danilo{
+    background-color: #002776;
+    width: 220px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    color: white;
+    font-family: arial, sans-serif;
+    align-items: center;
+}
+.paquetá{
+    margin: 50px;
+    border-radius: 20px;
+    background-color: burlywood;
+    color:aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 250px;
+    text-align: center;
+    display: flex;
+}
+#paquetá{
+    width: 200px;
+    height: 200px;
+    right: 300px;
+}
+#menu{
+    grid-area: menu;
+    background-color: #c1c2befa;
+    text-align: left;
+    font-size: 16px;
+}
+

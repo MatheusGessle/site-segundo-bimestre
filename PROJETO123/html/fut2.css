@@ -1,0 +1,142 @@
+.show{
+    display:flex;
+   
+    flex-wrap: wrap;
+    padding: 20px;
+   
+}
+
+body, html{
+    background-color: yellow;
+    margin: 0;
+    font-family: arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+.alisson{
+     background-color: #002776;
+     height: 110px;
+     display: flex;
+     align-items: center;
+     padding-left: 20px;
+}
+.alisson2 h3{
+    color: black;
+    padding: 5px;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 50px;
+    width: 450px;
+    text-align: justify;
+}
+.danilo{
+    background-color: #002776;
+    width: 220px;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 60px;
+    color: white;
+    font-family: arial, sans-serif;
+    align-items: center;
+}
+.paquetá img{
+    margin: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 250px;
+    display:flow-root;
+    width: 200px;
+    height: 200px;
+    flex: 1 1 200px;
+    border-color: #002776;
+}
+#paquetá{
+    width: 200px;
+    height: 200px;
+    right: 300px;
+    position:flex;
+}
+.gerson img{
+    margin: 30px;
+    padding-left: 5px;
+    border-radius: 20px;
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+}
+#gerson{
+    width: 200px;
+    height: 200px;
+    right: 300px;
+}
+.danilo2 img{
+    margin: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 350px;
+    display:flow-root;
+    width: 200px;
+    height: 200px;
+    flex: 1 1 200px;
+}
+#danilo2{
+    width: 200px;
+    height: 200px;
+    right: 300px;
+}
+.show2{
+    display:flex;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.show3{
+    display:flex;
+    flex-wrap:wrap;
+    padding:3px;
+}
+ul {
+    margin-top:200px;
+    
+}
+li{
+    margin: 20px;
+    list-style-type: none;   
+}
+#direita{
+    width: 200px;
+    float: right;
+    background-color: #002776;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 275px;
+    position:relative; left: 260px;  
+}
+h4{
+    list-style-type: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    align-items: center;
+    margin-left: 300px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: justify;
+    position:relative; right: 300px;  
+}
+#seleção{
+    width: 200px;
+    float: right;
+    background-color: #002776;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 150px;
+    position:relative; right: 50px;  
+}
